@@ -2,7 +2,9 @@
 	"salons": [
 		{
 			"name": "Gretas Salong",
+			"appointments": ["12.00"],
 			"rating": 4, 
+			"duration": 30,
 			"open": {
 				"monday": "11.00 - 19.00",
 				"tuesday": "11.00 - 19.00",
@@ -20,7 +22,9 @@
 },
 		{
 			"name": "Hannas Salong",
+			"appointments": ["12.00"],
 			"rating": 4, 
+			"duration": 30,
 			"open": {
 				"monday": "11.00 - 19.00",
 				"tuesday": "11.00 - 19.00",
@@ -38,7 +42,9 @@
 },
 		{
 			"name": "Märtas Salong",
+			"appointments": ["12.00"],
 			"rating": 4, 
+			"duration": 30,
 			"open": {
 				"monday": "11.00 - 19.00",
 				"tuesday": "11.00 - 19.00",
@@ -56,7 +62,9 @@
 },
 		{
 			"name": "Peters Salong",
+			"appointments": ["12.00"],
 			"rating": 4, 
+			"duration": 30,
 			"open": {
 				"monday": "11.00 - 19.00",
 				"tuesday": "11.00 - 19.00",
@@ -74,7 +82,9 @@
 },
 		{
 			"name": "Bertils Salong",
+			"appointments": ["12.00"],
 			"rating": 4, 
+			"duration": 30,
 			"open": {
 				"monday": "11.00 - 19.00",
 				"tuesday": "11.00 - 19.00",
@@ -92,7 +102,9 @@
 },
 		{
 			"name": "Sveas Salong",
+			"appointments": ["12.00"],
 			"rating": 4, 
+			"duration": 30,
 			"open": {
 				"monday": "11.00 - 19.00",
 				"tuesday": "11.00 - 19.00",
