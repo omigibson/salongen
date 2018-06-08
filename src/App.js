@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
 import Salons from './salons.json';
-import FilteredList from './components/Filter.js';
+import Filter from './components/Filter.js';
+import List from './components/List.js';
 import Backbutton from './components/Backbutton.js';
 import Sortbutton from './components/Sortbutton.js';
+import './App.css';
 
 class App extends Component {
 	
@@ -11,8 +12,13 @@ class App extends Component {
 		super(props);
 		this.state = {
 			salons: Salons.salons,
-			page: 'salon'
+			price: 0,
+			page: 'list'
 		};
+	}
+	
+	selectPrice = (event) => {
+		this.setState({price: event.target.value})
 	}
 	
 	handleClick(){
@@ -29,7 +35,8 @@ class App extends Component {
 			<Sortbutton/>
 		</header>
 		<main>
-		<FilteredList salonsData={this.state.salons}/>
+		<Filter salonsData={this.state.salons} selectPrice={this.selectPrice}/>
+		<List salonsData={this.state.salons} price={this.state.price}/>
 		</main>
       </div>
     );
