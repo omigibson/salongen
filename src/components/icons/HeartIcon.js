@@ -25,7 +25,7 @@ function HeartIcon() {
 				</g>
 			</g>
 		</svg>
-		)
+	)
 }
 
 export default HeartIcon;

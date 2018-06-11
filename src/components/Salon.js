@@ -1,6 +1,5 @@
 import React from 'react';
 import LeftArrowWhiteIcon from './icons/LeftArrowWhiteIcon.js';
-import HeartIcon from './icons/HeartIcon.js';
 import StarRatingSalonView from './icons/StarRatingSalonView.js';
 import LocationIcon from './icons/LocationIcon.js';
 import ClockIcon from './icons/ClockIcon.js';
@@ -15,7 +14,7 @@ function SalonView(props){
 					  <button onClick={props.backClick}>
 					  <LeftArrowWhiteIcon/>
 					  </button>
-					  <button><HeartIcon/></button>
+					  <button><i className="far fa-heart"></i></button>
 				</div>
 				<div>
 				  <h1>{props.singleSalon.name}</h1>
@@ -28,10 +27,10 @@ function SalonView(props){
 			  </ul>
 			  <main>
 					<ul className="salonInfo">
-						  <li><p><LocationIcon/> {props.singleSalon.streetAddress}, {props.singleSalon.zipcodeCity}</p></li>
-						 <li><p><ClockIcon/> Öppet till {props.singleSalon.open} idag</p></li>
-						  <li><p><PhoneIcon/> {props.singleSalon.phonenumber}</p></li>
-						  <li><p><WebIcon/> {props.singleSalon.website}</p></li>
+						  <li><p><span><LocationIcon/></span> {props.singleSalon.streetAddress}, {props.singleSalon.zipcodeCity}</p></li>
+						 <li><p><span><ClockIcon/></span> Öppet till {props.singleSalon.open} idag</p></li>
+						  <li><p><span><PhoneIcon/></span> {props.singleSalon.phonenumber}</p></li>
+						  <li><p><span><i className="fas fa-globe"></i></span> {props.singleSalon.website}</p></li>
 					</ul>
 				  <p className="salonDescription">{props.singleSalon.description}</p>
 			  </main>

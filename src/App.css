@@ -104,6 +104,11 @@ li {
 	justify-content: space-between;
 }
 
+button .far {
+	color: white;
+	font-size: 1.7rem;
+}
+
 .salonMenu {
 	padding: 0;
 }
@@ -124,6 +129,48 @@ li {
 	margin-bottom: 1rem;
 }
 
+.salonInfo span {
+	margin-right: .5rem;
+}
+
 .salonDescription {
 	padding: 0 1rem 1rem 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	.salonHeader {
+		height: 380px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	main, .salonMenu {
+		max-width: 900px;
+		margin: 0px auto;
+	}
+
+	.salonHeader {
+		height: 380px;
+		background-position: 0 -30px;
+		padding: 1rem 2.5rem;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.salonHeader {
+		height: 430px;
+		background-position: 0 -150px;
+		padding: 2rem 3rem;
+	}
+}
+
+@media screen and (min-width: 1200px) {	
+		.salonMenu li {
+		padding: 1.5rem 0;
+	margin-bottom: 2rem;
+	}
+	
+	.salonInfo li {
+	margin-bottom: 1.8rem;
+}
 }

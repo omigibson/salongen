@@ -28,6 +28,9 @@ class List extends Component {
 					
 				</li>;
 				}
+			else {
+				return null;
+			}
 		})
 	return (
 		<div>

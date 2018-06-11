@@ -25,11 +25,11 @@ class App extends Component {
 	
 	salonClick = async (e) => {
 		this.setState({page: 'salon'});
-		this.checkSalonId( await this.setState({salonId: e.target.id}))
+		this.checkSalonId( await this.setState({salonId: e.currentTarget.id}))
 	}
 	
 	
-	checkSalonId = () => {
+	checkSalonId = (id) => {
 		var singleSalon = '';
 		for (var i = 0; i < this.state.salons.length; i++) {
         if (this.state.salons[i].id === Number(this.state.salonId)) {
@@ -41,6 +41,7 @@ class App extends Component {
 	
 	backClick = () => {
 		this.setState({page: 'list'});
+		this.setState({singleSalon: ''})
 	}
 	
   render() {				
