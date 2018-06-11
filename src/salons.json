@@ -1,6 +1,7 @@
 {
 	"salons": [
 		{
+			"id": 1,
 			"name": "Gretas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
@@ -21,6 +22,7 @@
 			"description": "Lorem ipsum"
 },
 		{
+			"id": 2,
 			"name": "Hannas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
@@ -41,6 +43,7 @@
 			"description": "Lorem ipsum"
 },
 		{
+			"id": 3,
 			"name": "Märtas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
@@ -61,6 +64,7 @@
 			"description": "Lorem ipsum"
 },
 		{
+			"id": 4,
 			"name": "Peters Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
@@ -81,6 +85,7 @@
 			"description": "Lorem ipsum"
 },
 		{
+			"id": 5,
 			"name": "Bertils Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
@@ -101,6 +106,7 @@
 			"description": "Lorem ipsum"
 },
 		{
+			"id": 6,
 			"name": "Sveas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
@@ -115,6 +121,90 @@
 				"sunday": "12.00 - 18.00"
 			},
 			"price": 600,
+			"address": "Rådmansgatan 46",
+			"phonenumber": "08-522 389 20",
+			"website": "www.salongweb.se",
+			"description": "Lorem ipsum"
+},
+		{
+			"id": 7,
+			"name": "Sax & Fön",
+			"appointments": ["12.00"],
+			"rating": 3, 
+			"duration": 30,
+			"open": {
+				"monday": "11.00 - 19.00",
+				"tuesday": "11.00 - 19.00",
+				"wednesday": "11.00 - 19.00",
+				"thursday": "11.00 - 19.00",
+				"friday": "11.00 - 19.00",
+				"saturday": "11.00 - 18.00",
+				"sunday": "12.00 - 18.00"
+			},
+			"price": 750,
+			"address": "Rådmansgatan 46",
+			"phonenumber": "08-522 389 20",
+			"website": "www.salongweb.se",
+			"description": "Lorem ipsum"
+},
+		{
+			"id": 8,
+			"name": "Hårizont",
+			"appointments": ["12.00"],
+			"rating": 3, 
+			"duration": 30,
+			"open": {
+				"monday": "11.00 - 19.00",
+				"tuesday": "11.00 - 19.00",
+				"wednesday": "11.00 - 19.00",
+				"thursday": "11.00 - 19.00",
+				"friday": "11.00 - 19.00",
+				"saturday": "11.00 - 18.00",
+				"sunday": "12.00 - 18.00"
+			},
+			"price": 800,
+			"address": "Rådmansgatan 46",
+			"phonenumber": "08-522 389 20",
+			"website": "www.salongweb.se",
+			"description": "Lorem ipsum"
+},
+		{
+			"id": 9,
+			"name": "Hårhuset",
+			"appointments": ["12.00"],
+			"rating": 3, 
+			"duration": 30,
+			"open": {
+				"monday": "11.00 - 19.00",
+				"tuesday": "11.00 - 19.00",
+				"wednesday": "11.00 - 19.00",
+				"thursday": "11.00 - 19.00",
+				"friday": "11.00 - 19.00",
+				"saturday": "11.00 - 18.00",
+				"sunday": "12.00 - 18.00"
+			},
+			"price": 200,
+			"address": "Rådmansgatan 46",
+			"phonenumber": "08-522 389 20",
+			"website": "www.salongweb.se",
+			"description": "Lorem ipsum"
+},
+		{
+			"id": 10,
+			"name": "Hair & Nu",
+			"appointments": ["12.00"],
+			"rating": 3, 
+			"duration": 30,
+			"open": {
+				"monday": "11.00 - 19.00",
+				"tuesday": "11.00 - 19.00",
+				"wednesday": "11.00 - 19.00",
+				"thursday": "11.00 - 19.00",
+				"friday": "11.00 - 19.00",
+				"saturday": "11.00 - 18.00",
+				"sunday": "12.00 - 18.00"
+			},
+			"price": 500,
 			"address": "Rådmansgatan 46",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",

@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Nextbutton(){
+function Salonbutton(props){
 	return (
-		<button>
+		<button onClick={props.salonClick} id={props.id}>
 			<svg width="8px" height="11px" viewBox="0 0 8 11" version="1.1">
 				<desc>Created with Sketch.</desc>
 				<defs></defs>
@@ -16,4 +16,4 @@ function Nextbutton(){
 		)
 }
 
-export default Nextbutton;
+export default Salonbutton;

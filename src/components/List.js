@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import Nextbutton from './Nextbutton.js';
+import Salonbutton from './Salonbutton.js';
 
 class List extends Component {
-	
-	constructor(props) {
-		super(props);
-	}
 	
 	render() {
 		const price = this.props.price;
@@ -18,7 +14,7 @@ class List extends Component {
 					<p className="price">{salon.price} kr</p>
 					<p className="rating">{salon.rating}</p>
 					<p>{salon.duration} mn</p>
-					<Nextbutton/>
+					<Salonbutton salonClick={this.props.salonClick} id={salon.id}/>
 					<p className="address">{salon.address}</p>
 				</li>;
 				}

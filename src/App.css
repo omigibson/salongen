@@ -8,7 +8,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 }
 
 p {
@@ -23,7 +23,7 @@ p {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
-	border-bottom: 1.5px solid #B69F58;
+	border-bottom: 1px solid #B69F58;
 }
 
 main {
@@ -31,12 +31,14 @@ main {
 }
 
 select {
-	width: 95%;
+	width: 100%;
 	font-family: "Helvetica Neue";
+	font-weight: lighter;
+	font-size: 1rem;
 	appearance: none;
 	background-image: url("./components/Downarrow.svg");
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: right 15px center;
 	border: none;
 	padding: 1rem;
 	margin: 0;
@@ -46,7 +48,7 @@ ul {
 	list-style: none;
 	padding: 1rem;
 	margin: 0;
-	border-top: 1.5px solid #B69F58;
+	border-top: 1px solid #B69F58;
 }
 
 li {
@@ -89,6 +91,8 @@ li {
 	background-image: url("components/Salonheader.svg");
 }
 
+/*
 .salonHeader h1 {
 	color: white;
 }
+*/

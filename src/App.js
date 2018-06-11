@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Salons from './salons.json';
 import Filter from './components/Filter.js';
 import List from './components/List.js';
-import Backbutton from './components/Backbutton.js';
-import Sortbutton from './components/Sortbutton.js';
+import LeftArrowIcon from './components/LeftArrowIcon.js';
+import OptionsIcon from './components/OptionsIcon.js';
 import './App.css';
 
 class App extends Component {
@@ -13,7 +13,8 @@ class App extends Component {
 		this.state = {
 			salons: Salons.salons,
 			price: 0,
-			page: 'list'
+			page: 'list',
+			singleSalon: ''
 		};
 	}
 	
@@ -21,22 +22,38 @@ class App extends Component {
 		this.setState({price: event.target.value})
 	}
 	
-	handleClick(){
+	salonClick = async (e) => {
 		this.setState({page: 'salon'});
+		this.checkSalonId( await this.setState({salonId: e.target.id}))
 	}
 	
-  render() {
+	
+	checkSalonId = () => {
+		var singleSalon = '';
+		for (var i = 0; i < this.state.salons.length; i++) {
+        if (this.state.salons[i].id === Number(this.state.salonId)) {
+            singleSalon = this.state.salons[i];
+			this.setState({singleSalon: singleSalon})
+        }
+    }
+	}
+	
+	backClick = () => {
+		this.setState({page: 'list'});
+	}
+	
+  render() {				
 	  if (this.state.page === 'list'){
     return (
       <div className="App">
 		<header className="listHeader">
-			<Backbutton/>
+			<button><LeftArrowIcon/></button>
 			<h1>Hår</h1>
-			<Sortbutton/>
+			<OptionsIcon/>
 		</header>
 		<main>
 		<Filter salonsData={this.state.salons} selectPrice={this.selectPrice}/>
-		<List salonsData={this.state.salons} price={this.state.price}/>
+		<List salonsData={this.state.salons} price={this.state.price} salonClick={this.salonClick}/>
 		</main>
       </div>
     );
@@ -46,8 +63,10 @@ class App extends Component {
 		  return(
 		  <div>
 			  <header className="salonHeader">
-			  <Backbutton/>
-			  <h1>Salong Namn</h1>
+			  <button onClick={this.backClick}>
+			  <LeftArrowIcon/>
+			  </button>
+			  <h1>{this.state.singleSalon.name}</h1>
 			  </header>
 			  <main>
 			  </main>

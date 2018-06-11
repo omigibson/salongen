@@ -1,12 +1,6 @@
 import React from 'react';
-import List from './List.js';
 
 class Filter extends React.Component {
-	
-	constructor(props) {
-		super(props);
-	}
-	
 	render(){
 		return (
 			<div>
@@ -22,4 +16,4 @@ class Filter extends React.Component {
 	}
 }
 
-export default Filter
+export default Filter;

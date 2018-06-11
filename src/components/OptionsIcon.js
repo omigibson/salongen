@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Sortbutton(){
+function OptionsIcon(){
 	return (
 		
 <svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1">
@@ -25,4 +25,4 @@ function Sortbutton(){
 	)
 }
 
-export default Sortbutton;
+export default OptionsIcon;
