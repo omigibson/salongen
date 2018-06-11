@@ -5,210 +5,170 @@
 			"name": "Gretas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 300,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 2,
 			"name": "Hannas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 250,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 3,
 			"name": "Märtas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 400,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 4,
 			"name": "Peters Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 700,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 5,
 			"name": "Bertils Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 150,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 6,
 			"name": "Sveas Salong",
 			"appointments": ["12.00"],
 			"rating": 4, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 600,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 7,
 			"name": "Sax & Fön",
 			"appointments": ["12.00"],
 			"rating": 3, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 750,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 8,
 			"name": "Hårizont",
 			"appointments": ["12.00"],
 			"rating": 3, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 800,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 9,
 			"name": "Hårhuset",
 			"appointments": ["12.00"],
 			"rating": 3, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 200,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 },
 		{
 			"id": 10,
 			"name": "Hair & Nu",
 			"appointments": ["12.00"],
 			"rating": 3, 
+			"numberOfRatings": 32,
 			"duration": 30,
-			"open": {
-				"monday": "11.00 - 19.00",
-				"tuesday": "11.00 - 19.00",
-				"wednesday": "11.00 - 19.00",
-				"thursday": "11.00 - 19.00",
-				"friday": "11.00 - 19.00",
-				"saturday": "11.00 - 18.00",
-				"sunday": "12.00 - 18.00"
-			},
+			"open": [
+				"19.00"
+			],
 			"price": 500,
-			"address": "Rådmansgatan 46",
+			"streetAddress": "Rådmansgatan 46",
+			"zipcodeCity": "115 37 Stocholm",
 			"phonenumber": "08-522 389 20",
 			"website": "www.salongweb.se",
-			"description": "Lorem ipsum"
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 }
 	]
 }

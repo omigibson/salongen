@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Salons from './salons.json';
 import Filter from './components/Filter.js';
 import List from './components/List.js';
-import LeftArrowIcon from './components/LeftArrowIcon.js';
-import OptionsIcon from './components/OptionsIcon.js';
+import SalonView from './components/Salon.js';
+import LeftArrowIcon from './components/icons/LeftArrowIcon.js';
+import OptionsIcon from './components/icons/OptionsIcon.js';
 import './App.css';
 
 class App extends Component {
@@ -61,16 +62,7 @@ class App extends Component {
 	  
 	  if (this.state.page === 'salon'){
 		  return(
-		  <div>
-			  <header className="salonHeader">
-			  <button onClick={this.backClick}>
-			  <LeftArrowIcon/>
-			  </button>
-			  <h1>{this.state.singleSalon.name}</h1>
-			  </header>
-			  <main>
-			  </main>
-			</div>
+		  	<SalonView singleSalon={this.state.singleSalon} backClick={this.backClick}/> 
 		  )
 	  }
   }

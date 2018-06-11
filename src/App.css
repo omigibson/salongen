@@ -1,9 +1,13 @@
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-family: "MillerBanner";
 	font-weight: lighter;
 }
 
-h1, h2 {
+h1,
+h2 {
 	margin: 0px;
 }
 
@@ -15,6 +19,11 @@ p {
 	font-family: "Helvetica Neue";
 	font-weight: lighter;
 	margin: .4rem 0;
+}
+
+button {
+	background: none;
+	border: none;
 }
 
 .listHeader {
@@ -36,24 +45,23 @@ select {
 	font-weight: lighter;
 	font-size: 1rem;
 	appearance: none;
-	background-image: url("./components/Downarrow.svg");
+	background: url("./components/icons/Downarrow.svg");
 	background-repeat: no-repeat;
 	background-position: right 15px center;
 	border: none;
 	padding: 1rem;
 	margin: 0;
+	border-bottom: 1px solid #B69F58;
 }
 
 ul {
 	list-style: none;
 	padding: 1rem;
 	margin: 0;
-	border-top: 1px solid #B69F58;
 }
 
 li {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: baseline;
 	margin-bottom: 2rem;
@@ -64,8 +72,11 @@ li {
 	font-weight: bold;
 }
 
-.salonName {
+.salonInfo {
 	width: 60%;
+}
+
+.salonName {
 	font-family: "MillerBanner";
 	font-size: 1.3rem;
 	text-align: left
@@ -75,24 +86,44 @@ li {
 	font-weight: bold;
 }
 
-.rating {
-	width: 60%;
-	margin-left: 15%;
-}
-
-.address {
-	margin-left: 15%;
-}
-
 /* Salon Page */
 
 .salonHeader {
-	width: 100%;
+	height: 267px;
 	background-image: url("components/Salonheader.svg");
+	background-size: cover;
+	color: white;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-/*
-.salonHeader h1 {
-	color: white;
+.salonHeaderIcons {
+	display: flex;
+	justify-content: space-between;
 }
-*/
+
+.salonMenu {
+	padding: 0;
+}
+
+.salonMenu li {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	padding: .8rem 0;
+	margin-bottom: 1rem;
+}
+
+.active {
+	border-bottom: 1px solid #B69F58;
+}
+
+.salonInfo li {
+	margin-bottom: 1rem;
+}
+
+.salonDescription {
+	padding: 0 1rem 1rem 1rem;
+}
